@@ -1,0 +1,109 @@
+@font-face {
+    font-family: PLENTO-Regular; /* Имя шрифта */
+    src: url(fonts/PLENTO-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+
+html, body {
+    background-color: black;
+    margin: 0;
+    min-height: 100%;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+h1, h2, h3, h4 {
+    text-transform: uppercase;
+}
+
+.base-container {
+    background: linear-gradient(to bottom, #9401ff 300px, #080808 500px);
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    position: relative;
+}
+
+.main {
+    background: linear-gradient(to bottom, black 480px, white 480px);
+    box-shadow: 5px 5px 45px 0px black;
+    color: white;
+    margin: 80px auto;
+    max-width: 800px;
+    height: 100%;
+    padding: 60px 40px;
+}
+
+h1 {
+    font-family: PLENTO-Regular;
+    font-size: 60px;
+    letter-spacing: 10px;
+    margin: 20px 0;
+}
+
+h2 {
+    font-family: PLENTO-Regular;
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin: 16px 0;
+}
+
+.main-info {
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.main-info h3 {
+    font-family: PLENTO-Regular;
+    font-size: 24px;
+}
+
+.main-info .block {
+    padding-top: 25px;
+}
+
+.main-info .info-right {
+    width: 55%;
+}
+
+.main-info .info-left {
+    width: 45%;
+}
+
+.description {
+    color: white;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 220px;
+    max-height: 220px;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.info-right .photo {
+    text-align: center;
+}
+
+.info-right .block li p  {
+    margin: 0 0 10px 80px; 
+}
+
+.container-footer {
+height: 40px;
+}
+
+.description-footer {
+   color: white;
+   height: 0;
+   text-align: center;
+   font-family: PLENTO-Regular;
+   font-size: 25px;
+}
+
