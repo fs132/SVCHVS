@@ -1,7 +1,7 @@
 # Сurriculum vitae
 ![Картинка](https://github.com/fs132/SVCHVS/blob/Lab-1/Images/img.jpg)
 
-Name: Egor
+### Name: Egor
 
 SurName: Svistunov
 
@@ -13,7 +13,7 @@ VK: https://vk.com/id416196859
 
 Telegram: Er Er
 
-### About Me
+### About Me 
 I'm a student of the Mogilev University BRU. I want to become a Web developer. In the process of studying JavaScript.
 
 ### Skills
